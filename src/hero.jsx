@@ -4,7 +4,7 @@ function Hero() {
       className="md:h-[100vh] md:w-[100%] w-[100%] h-[100%] flex items-center justify-center "
       style={{
         background:
-          "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('../assets/banner1.jpg')",
+          "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('./src/assets/banner1.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

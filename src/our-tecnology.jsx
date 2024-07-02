@@ -1,27 +1,27 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const data =[{
-    img:`../assets/dot_net.png`,
+    img:`./src/assets/dot_net.png`,
     details:`.Net provides user interface, data access, DB connectivity, cryptography, web application development and network communications`
 },
 {
-    img:`../assets/js.png`,
+    img:`./src/assets/js.png`,
     details:`JS is used as aprt of web browsers, whose implementaions allow client-side script and interact with the user to communicate asynchronously`
 },
 {
-    img:`../assets/angular.png`,
+    img:`./src/assets/angular.png`,
     details:`AngularJS is an open-source web application framework maintained by Google and corporation to address many challenges encountered in developing S.A.P`
 },
 {
-     img:`../assets/logo-drupal1.png`,
+     img:`./src/assets/logo-drupal1.png`,
     details:`Drupal is DContent management framework written in PHP & used to back-end by mostly websites. It common features is to CSM `
 },
 {
-    img:`../assets/sql.png`,
+    img:`./src/assets/sql.png`,
     details:`SQL is a special-purpose programing language designed for managing data and stream processing in a relational data stream management system`
 },
 {
-    img:`../assets/ios.png`,
+    img:`./src/assets/ios.png`,
     details:`The user interface of iOS Apps is based on the concept of direct manipulation, using multitouch gesture and interface control element consist of sliders and buttons `
 }
 ]

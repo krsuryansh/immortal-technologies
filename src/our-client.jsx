@@ -6,37 +6,37 @@ import "slick-carousel/slick/slick-theme.css";
 
 const photo = [
     {
-        img:`../assets/Aiiims.jpg`
+        img:`./src/assets/Aiiims.jpg`
     },
     {
-        img:`../assets/orange.png`
+        img:`./src/assets/orange.png`
     },
     {
-        img:`../assets/client1.jpg`
+        img:`./src/assets/client1.jpg`
     },
     {
-        img:`../assets/client3.jpg`
+        img:`./src/assets/client3.jpg`
     },
     {
-        img:`../assets/client6.jpg`
+        img:`./src/assets/client6.jpg`
     },
     {
-        img:`../assets/client7.jpg`
+        img:`./src/assets/client7.jpg`
     },
     {
-        img:`../assets/iari.png`
+        img:`./src/assets/iari.png`
     },
     {
-        img:`../assets/fortis.jpg`
+        img:`./src/assets/fortis.jpg`
     },
     {
-        img:`../assets/icarlogo.png`
+        img:`./src/assets/icarlogo.png`
     },
     {
-        img:`../assets/radical.png`
+        img:`./src/assets/radical.png`
     },
     {
-        img:`../assets/3m.png`
+        img:`./src/assets/3m.png`
     }
 ]
 function Ourclient  (){

@@ -25,7 +25,7 @@ function App() {
           className=" w-full  min-h-[50vh] bg-bottom p-5 bg-[#5151efa0]"
           style={{
             background:
-              "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('../assets/banner1.jpg')",
+              "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('./src/assets/banner1.jpg')",
           }}
         >
           <h1 className="flex w-full items-center justify-center m-4 ">
