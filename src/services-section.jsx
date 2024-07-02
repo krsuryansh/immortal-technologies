@@ -1,5 +1,6 @@
-const soft = "./src/assets/soft.png";
-const servicesimg=["./src/assets/mob.png","./src/assets/ecom.png","./src/assets/cms.png","./src/assets/billing.png","./src/assets/multimedia-icon.png","./src/assets/erp.png","./src/assets/cloud.png","./src/assets/seo_icon.png"];
+// const soft = "./src/assets/soft.png";
+import soft from "/src/assets/soft.png"
+const servicesimg=["/src/assets/mob.png","/src/assets/ecom.png","/src/assets/cms.png","/src/assets/billing.png","/src/assets/multimedia-icon.png","/src/assets/erp.png","/src/assets/cloud.png","/src/assets/seo_icon.png"];
 import Card from "./servicecard";
 import React from "react";
 const OurServices = () => {

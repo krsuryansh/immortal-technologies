@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-     
+      <div className="bg-white">
         <NavBar />
         <Hero />
         <OurServices />
@@ -41,7 +41,7 @@ function App() {
           <Ourclient />
         </div>
         <Footer />
-      
+        </div>
     </>
   );
 }
