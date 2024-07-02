@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import logo from "/src/assets/logo.png";
 const Nav=()=> {
   const [display, setdisplay] = useState(false);
   useEffect(()=>{
@@ -16,7 +16,7 @@ const Nav=()=> {
       >
         <div className="p-5 w-full h-[70px]  justify-items-center items-center justify-between  flex max-w-[1280px] m-auto">
           <div>
-            <img className="h-[60px]" src="./src/assets/logo.png" alt="" />
+            <img className="h-[60px]" src={logo} alt="" />
           </div>
           <div className=" md:block">
             <div className=" w-full justify-between items-center mr-[50px] hidden text-[#1b4332] md:flex space-x-5 mx-1 px-2">

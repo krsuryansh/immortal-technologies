@@ -1,27 +1,34 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import dot_net from "/src/assets/dot_net.png";
+import js from "/src/assets/js.png";
+import angular from "/src/assets/angular.png";
+import logodrupal1 from "/src/assets/logo-drupal1.png";
+import sql from "/src/assets/sql.png";
+import ios from "/src/assets/ios.png";
+
 const data =[{
-    img:`./src/assets/dot_net.png`,
+    img:`${dot_net}`,
     details:`.Net provides user interface, data access, DB connectivity, cryptography, web application development and network communications`
 },
 {
-    img:`./src/assets/js.png`,
+    img:`${js}`,
     details:`JS is used as aprt of web browsers, whose implementaions allow client-side script and interact with the user to communicate asynchronously`
 },
 {
-    img:`./src/assets/angular.png`,
+    img:`${angular}`,
     details:`AngularJS is an open-source web application framework maintained by Google and corporation to address many challenges encountered in developing S.A.P`
 },
 {
-     img:`./src/assets/logo-drupal1.png`,
+     img:`${logodrupal1}`,
     details:`Drupal is DContent management framework written in PHP & used to back-end by mostly websites. It common features is to CSM `
 },
 {
-    img:`./src/assets/sql.png`,
+    img:`${sql}`,
     details:`SQL is a special-purpose programing language designed for managing data and stream processing in a relational data stream management system`
 },
 {
-    img:`./src/assets/ios.png`,
+    img:`${ios}`,
     details:`The user interface of iOS Apps is based on the concept of direct manipulation, using multitouch gesture and interface control element consist of sliders and buttons `
 }
 ]

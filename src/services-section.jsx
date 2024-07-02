@@ -1,6 +1,15 @@
 // const soft = "./src/assets/soft.png";
-import soft from "/src/assets/soft.png"
-const servicesimg=["/src/assets/mob.png","/src/assets/ecom.png","/src/assets/cms.png","/src/assets/billing.png","/src/assets/multimedia-icon.png","/src/assets/erp.png","/src/assets/cloud.png","/src/assets/seo_icon.png"];
+import soft from "/src/assets/soft.png";
+import mob from  "/src/assets/mob.png";
+import ecom from "/src/assets/ecom.png"
+import cms from "/src/assets/cms.png"
+import billing from "/src/assets/billing.png"
+import multi from "/src/assets/multimedia-icon.png"
+import erp from "/src/assets/erp.png"
+import cloud from "/src/assets/cloud.png"
+import seo from "/src/assets/seo_icon.png"
+ 
+const servicesimg=[ mob,ecom,cms,billing,multi,erp,cloud,seo];
 import Card from "./servicecard";
 import React from "react";
 const OurServices = () => {

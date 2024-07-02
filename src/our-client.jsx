@@ -3,40 +3,50 @@ import { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Aiims from "/src/assets/Aiiims.jpg"
+import orange from "/src/assets/orange.png"
+import client1 from "/src/assets/client1.jpg"
+import client2 from "/src/assets/client3.jpg"
+import client3 from "/src/assets/client6.jpg"
+import client4 from "/src/assets/client7.jpg"
+import iari from "/src/assets/iari.png"
+import fortis from "/src/assets/fortis.jpg"
+import icar from "/src/assets/icarlogo.png"
+import radial from "/src/assets/radical.png"
+import threem from "/src/assets/3m.png"
 const photo = [
     {
-        img:`./src/assets/Aiiims.jpg`
+        img:`${Aiims}`
     },
     {
-        img:`./src/assets/orange.png`
+        img:`${orange}`
     },
     {
-        img:`./src/assets/client1.jpg`
+        img:`${client1}`
     },
     {
-        img:`./src/assets/client3.jpg`
+        img:`${client2}`
     },
     {
-        img:`./src/assets/client6.jpg`
+        img:`${client3}`
     },
     {
-        img:`./src/assets/client7.jpg`
+        img:`${client4}`
     },
     {
-        img:`./src/assets/iari.png`
+        img:`${iari}`
     },
     {
-        img:`./src/assets/fortis.jpg`
+        img:`${fortis}`
     },
     {
-        img:`./src/assets/icarlogo.png`
+        img:`${icar}`
     },
     {
-        img:`./src/assets/radical.png`
+        img:`${radial}`
     },
     {
-        img:`./src/assets/3m.png`
+        img:`${threem}`
     }
 ]
 function Ourclient  (){

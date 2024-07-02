@@ -1,10 +1,12 @@
+import banner from "/src/assets/banner1.jpg";
+
 function Hero() {
   return (
     <div
       className="md:h-[100vh] md:w-[100%] w-[100%] h-[100%] flex items-center justify-center "
       style={{
         background:
-          "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('./src/assets/banner1.jpg')",
+          `linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url(${banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
