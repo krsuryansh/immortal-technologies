@@ -1,22 +1,27 @@
 import React, { useState } from "react";
+import webdev from "/src/assets/show/web-dev.jpg";
+import Ecom from "/src/assets/show/Ecom.png";
+import mob from "/src/assets/show/mob-app.jpg";
+import online from "/src/assets/show/online-marketing.jpg"
+
 const Info = [
   {
-    img: `../assets/show/web-dev.jpg`,
+    img: `${webdev}`,
     title: `Web Development`,
     details: `Immortal Technologies offers the best website design and development in Delhi, India and reasonably priced on-line marketing services in Delhi, India and generally on-line business needs, corporate web solutions, website development, web audit, website outsourcing and offshore web designers.`,
   },
   {
-    img:`../assets/show/Ecom.png`,
+    img:`${Ecom}`,
     title:`E-Commerce Website Design`,
     details:`Immortal Technologies is the e-commerce website design company and platform trust by the world's most important brands and produces on-line business. The best e-commerce website development company platform for growing businesses. E-Commerce enable merchants to sell more and scale faster than any other solution.`
   },
   {
-    img:`../assets/show/mob-app.jpg`,
+    img:`${mob}`,
     title:`Mobile Apps`,
     details:`Immortal Technologies provides you with an affordable e-commerce enabled site that is professional in appearance, easy to maintain and includes the tools you need to be successful.`
   },
   {
-    img:`../assets/show/online-marketing.jpg`,
+    img:`${online}`,
     title:`Online Marketing`,
     details:`Internet marketing, a guide to what you can do with websites, on-line advertising, e-commerce and other on-line marketing service In India`
   }
