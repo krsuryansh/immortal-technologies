@@ -82,7 +82,7 @@ function OurTechnology() {
                     <div  className=" flex items-center justify-center pt-2 md:p-0">
                         <img src={d.img} alt="Image" className="" />
                     </div>
-                    <div className="md:w-full  flex justify-center items-center">
+                    <div className="md:w-full  flex justify-center items-center text-center">
                         <p className="md:w-[77%] w-[80%] p-2 md:p-0">{d.details}</p>
                     </div>
                 </div>
