@@ -43,19 +43,19 @@ function OnlineMarketing(){
     const [data , setdata] = useState(0);
   return (
     <div className="md:max-w-[1280px] md:m-auto  md:h-[60vh] md:flex md:items-center md:mt-[5] ">
-      <div className="md:flex md:w-[60%] md:min-h-[35vh] min-h-max flex shadow-md shadow-[#6dcdf3] rounded-lg p-2">
-        <div className="w-[35%] ">
-          <div className="h-[25%]  border-[2px]  "  ><button onClick={webDev} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">Web dev</button></div>
+      <div className="md:flex md:w-[60%] md:min-h-[35vh] min-h-max block w-full shadow-md shadow-[#6dcdf3] rounded-lg p-2">
+        <div className="md:w-[35%] w-full ">
+          <div className="h-[25%]  border-[2px]  "  ><button onClick={webDev} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">Web development</button></div>
           <div className="h-[25%] border-[2px] "><button onClick={ecom} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">E-Commerece Solutions</button></div>
           <div className="h-[25%]  border-[2px] "><button onClick={mapp} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">Mobile Apps</button></div>
           <div className="h-[25%] border-[2px] "><button onClick={OnlineMarketing} className="w-full font-medium min-h-full focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">Online Marketing</button></div>
         </div>
-        <div className="w-[65%] bg-[#e9e4e4] flex">
+        <div className="md:w-[65%] bg-[#e9e4e4] w-full flex">
             <div className="w-[40%] flex content-center items-center  justify-center">
              
                 <img src={Info[data].img} alt=""  className="w-[70%]"/>
             </div>
-            <div className="w-[60%] flex flex-col  justify-center pr-5 items-center md:overflow-hidden overflow-scroll"  >
+            <div className="w-[60%] flex flex-col  justify-center pr-5 p-2 items-center md:overflow-hidden overflow-scroll"  >
                 <h2 className="text-xl font-medium pb-5 ">{Info[data].title}</h2>
                 <p className="text-xs w-[90%]  ">{Info[data].details}</p>
 
