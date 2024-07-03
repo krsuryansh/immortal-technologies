@@ -44,20 +44,46 @@ function OurTechnology() {
         slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 2500,
-        pauseOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
       };
   return (
           
     <div className="md:max-w-[1280px] md:m-auto w-full md:h-[50vh] min-h-max">
-        <div className="m-5 items-center justify-center w-full" >
+        <div className="md:m-5 m-0 p-2 md:p-0 items-center justify-center w-full" >
         <Slider {...settings}>
             {data.map((d)=>(
-                <div className="bg-[white]   shadow-lg p-2 flex h-[100%] items-center rounded-md ">
+                <div className="bg-[white]   shadow-lg md:p-2 flex h-[100%]  items-center rounded-md ">
                     <div  className=" flex items-center justify-center">
                         <img src={d.img} alt="Image" className="" />
                     </div>
-                    <div className="w-full flex justify-center items-center">
-                        <p className="w-[77%]">{d.details}</p>
+                    <div className="md:w-full  flex justify-center items-center">
+                        <p className="md:w-[77%] w-[50%]">{d.details}</p>
                     </div>
                 </div>
             ))}

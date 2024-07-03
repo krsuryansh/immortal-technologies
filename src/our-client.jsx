@@ -57,7 +57,33 @@ function Ourclient  (){
         slidesToScroll: 6,
         autoplay: true,
         autoplaySpeed: 2500,
-        pauseOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            }
+          ]
       };
   return (
     <div className="max-w-[1280px] m-auto w-full content-center "> 
