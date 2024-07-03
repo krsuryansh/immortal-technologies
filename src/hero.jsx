@@ -12,7 +12,7 @@ function Hero() {
         width: "100%"
       }}
     >
-      <div className="md:w-[60%] w-full ">
+      <div className="md:w-[60%] w-full p-5 md:p-0 ">
         <h2 className="text-[white] md:text-5xl "
         style={{
             fontFamily:"anton"

@@ -150,7 +150,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[7vh] bg-[#242424] border-t-[5px] border-yellow-300 flex content-center">
+      <div className="w-full min-h-[7vh] bg-[#242424] border-t-[5px] border-yellow-300 flex content-center p-3 md:p-0">
         <div className="max-w-[1280px] m-auto flex items-center content-center justify-between w-full h-[100% ]">
             <div className="text-white text-xs mr-5">Immortal Technologies Pvt. Ltd. All Rights Reserved.</div>
             <div className="w-[30%] flex flex-wrap justify-between items-center text-white">
