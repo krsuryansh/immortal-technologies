@@ -48,7 +48,7 @@ function OurTechnology() {
       };
   return (
           
-    <div className="max-w-[1280px] m-auto w-full h-[50vh] ">
+    <div className="md:max-w-[1280px] md:m-auto w-full md:h-[50vh] min-h-max">
         <div className="m-5 items-center justify-center w-full" >
         <Slider {...settings}>
             {data.map((d)=>(

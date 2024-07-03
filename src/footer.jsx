@@ -153,7 +153,7 @@ const Footer = () => {
       <div className="w-full h-[7vh] bg-[#242424] border-t-[5px] border-yellow-300 flex content-center">
         <div className="max-w-[1280px] m-auto flex items-center content-center justify-between w-full h-[100% ]">
             <div className="text-white text-xs mr-5">Immortal Technologies Pvt. Ltd. All Rights Reserved.</div>
-            <div className="w-[30%] flex justify-between items-center text-white">
+            <div className="w-[30%] flex flex-wrap justify-between items-center text-white">
                <button className="hover:text-[#a3a3f9] text-xs">PayOnline(Rs/INR)</button>
                <button className="hover:text-[#a3a3f9] text-xs">PayOnline($/USD)</button>
                <button className="hover:text-[#a3a3f9] text-xs">SiteMap</button>

@@ -3,16 +3,17 @@ import banner from "/src/assets/banner1.jpg";
 function Hero() {
   return (
     <div
-      className="md:h-[100vh] md:w-[100%] w-[100%] h-[100%] flex items-center justify-center "
+      className="md:h-[100vh] md:w-[100%] w-[100%] h-[100%] min-h-[50vh] flex items-center content-center justify-center "
       style={{
         background:
           `linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url(${banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        width: "100%"
       }}
     >
-      <div className="w-[60%]">
-        <h2 className="text-[white] md:text-5xl"
+      <div className="md:w-[60%] w-full ">
+        <h2 className="text-[white] md:text-5xl "
         style={{
             fontFamily:"anton"
            

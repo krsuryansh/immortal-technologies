@@ -42,8 +42,8 @@ function OnlineMarketing(){
 };
     const [data , setdata] = useState(0);
   return (
-    <div className="max-w-[1280px] m-auto  h-[60vh] flex items-center mt-[5]">
-      <div className="flex w-[60%] h-[35vh] shadow-md shadow-[#6dcdf3] rounded-lg p-2">
+    <div className="md:max-w-[1280px] md:m-auto  md:h-[60vh] md:flex md:items-center md:mt-[5] ">
+      <div className="md:flex md:w-[60%] md:min-h-[35vh] min-h-max flex shadow-md shadow-[#6dcdf3] rounded-lg p-2">
         <div className="w-[35%] ">
           <div className="h-[25%]  border-[2px]  "  ><button onClick={webDev} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">Web dev</button></div>
           <div className="h-[25%] border-[2px] "><button onClick={ecom} className="w-full min-h-full font-medium focus:text-white focus:bg-[#333232] focus:border-r-[15px] focus:border-[#e9e4e4]">E-Commerece Solutions</button></div>

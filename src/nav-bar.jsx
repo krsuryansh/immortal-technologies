@@ -14,7 +14,7 @@ const Nav=()=> {
       <div
         className={`w-full fixed top-0 z-[20] text-white  h-[70px]  ${display ? 'bg-[#f5f0f0e3] text-[#1b4332]': 'bg-none'}` }
       >
-        <div className="p-5 w-full h-[70px]  justify-items-center items-center justify-between  flex max-w-[1280px] m-auto">
+        <div className="p-5 w-full h-[70px]  justify-items-center items-center justify-between  flex md:max-w-[1280px] md:m-auto">
           <div>
             <img className="h-[60px]" src={logo} alt="" />
           </div>
@@ -50,6 +50,22 @@ const Nav=()=> {
                   href="#"
                 >
                   Portfolio
+                </a>
+              </ul>
+              <ul>
+                <a
+                  className={`${display ? ' text-[#1b4332]': 'text-white'} hover:border-b-[3px] p-1  hover:border-[#6d6de5] hover:text-[#6d6de5]`}
+                  href="#"
+                >
+                  Our Products
+                </a>
+              </ul>
+              <ul>
+                <a
+                  className={`${display ? ' text-[#1b4332]': 'text-white'} hover:border-b-[3px] p-1  hover:border-[#6d6de5] hover:text-[#6d6de5]`}
+                  href="#"
+                >
+                 Blogs
                 </a>
               </ul>
               <ul>
