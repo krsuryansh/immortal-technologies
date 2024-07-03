@@ -79,11 +79,11 @@ function OurTechnology() {
         <Slider {...settings}>
             {data.map((d)=>(
                 <div className="bg-[white]   shadow-lg md:p-2 flex h-[100%]  items-center rounded-md ">
-                    <div  className=" flex items-center justify-center">
+                    <div  className=" flex items-center justify-center pt-2 md:p-0">
                         <img src={d.img} alt="Image" className="" />
                     </div>
                     <div className="md:w-full  flex justify-center items-center">
-                        <p className="md:w-[77%] w-[50%]">{d.details}</p>
+                        <p className="md:w-[77%] w-[80%] p-2 md:p-0">{d.details}</p>
                     </div>
                 </div>
             ))}

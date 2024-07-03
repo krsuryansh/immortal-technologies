@@ -13,7 +13,7 @@ function Hero() {
       }}
     >
       <div className="md:w-[60%] w-full p-5 md:p-0 pt-10">
-        <h2 className="text-[white] md:text-5xl "
+        <h2 className="text-[white] md:text-5xl text-2xl pt-3 md:p-0 "
         style={{
             fontFamily:"anton"
            

@@ -18,7 +18,7 @@ const OurServices = () => {
       <div className=" text-black flex w-full justify-center content-center p-4">
         <h2 className="text-4xl">Our Services</h2>
       </div>
-      <p className="w-full flex text-center justify-center mb-10">
+      <p className="w-full flex text-center justify-center mb-10 p-3 md:p-0">
         As an overview, Immortal Technologies provides every service you might
         need for web and internet marketing. We are a full-service company,
         meaning that we can handle every aspect of your online presence from

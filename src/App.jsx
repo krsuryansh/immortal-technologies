@@ -28,7 +28,7 @@ function App() {
               "linear-gradient(rgba(5,77,149,0.6),rgba(5,77,149,0.6)),url('./src/assets/banner1.jpg')",
           }}
         >
-          <h1 className="flex w-full items-center justify-center m-4 ">
+          <h1 className="flex w-full items-center justify-center m-4 md:text-5xl text-3xl ">
             Our Technologies
           </h1>
           <OurTechnology />
