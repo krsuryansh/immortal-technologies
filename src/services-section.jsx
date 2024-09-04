@@ -24,7 +24,7 @@ const OurServices = () => {
         meaning that we can handle every aspect of your online presence from
         website design to internet marketing.
       </p>
-      <div className="grid md:flex  lg:grid-cols-3 grid-cols-1 content-center justify-center gap-8">
+      <div className="grid   lg:grid-cols-3 grid-cols-1 content-center justify-center gap-8">
         <Card
           imageSrc={soft}
           title="S/W Development"
